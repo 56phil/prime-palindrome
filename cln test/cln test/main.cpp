@@ -131,12 +131,3 @@ cl_I makePalindromeOdd(cl_I n) {
     u0.append(m.append(u1));
     return cl_I(u0.c_str());
 }
-
-//void lineOut(cl_I n, long i) {
-//    time_t rawtime;
-//    struct tm * timeinfo;
-//    time (&rawtime);
-//    timeinfo = localtime (&rawtime);
-//    string s = asctime(timeinfo);
-//    cout << fmt(i + 1) << " \t" << fmt(n) << endl;
-//}
